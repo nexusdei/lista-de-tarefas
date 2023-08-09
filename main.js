@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    
     $('#form-tarefas').submit(function(e) {
         e.preventDefault();
 
@@ -13,4 +14,5 @@ $(document).ready(function() {
     $(document).on('click', 'li', function() {
         $(this).toggleClass('feito');
     });
+    
 });
